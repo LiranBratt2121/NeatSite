@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.backgroundPic{
+    margin: 0px;
+    height: 50vh;
+    width: 100vw;
+    background: url("/trialPhotos/robots.jpg");
+    background-size:cover;
+    background-repeat:round;
+}
+
+.navBar{  
+    display: inline-table;
+    position: sticky;
+    top: 0px;
+    margin-top: -100px;
+    /* position: relative; */
+    width: 100vw;
+    /* top: -100px; */
+    align-items: center;  
+    background: url("/trialPhotos/Grey_full.png");
+    background-size: cover;
+}   
+.text{
+    font-size: 2.1vw;
+    letter-spacing: 0.1vw;
+    padding-right: 0.1vw;
+    color: white;
+    text-shadow: 1.7px 0.5px black;
+    font-family: 'Secular One', sans-serif;
+}
+#home{
+    padding-left: 0.1vw;
+}
+
+.mainText{
+    height: 1000px;
+    background: lightblue;
+}
