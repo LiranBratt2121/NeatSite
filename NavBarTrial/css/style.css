@@ -5,7 +5,7 @@
     margin: 0px;
     height: 50vh;
     width: 100vw;
-    background: url("/trialPhotos/robots.jpg");
+    background: url("/trialPhotos/NeatPhoto1.jpg");
     background-size:cover;
     background-repeat:round;
 }
@@ -19,21 +19,30 @@
     width: 100vw;
     /* top: -100px; */
     align-items: center;  
-    background: url("/trialPhotos/Grey_full.png");
-    background-size: cover;
+    background: rgb(68, 230, 255,.5);
 }   
 .text{
     font-size: 2.1vw;
     letter-spacing: 0.1vw;
     padding-right: 0.1vw;
+
+   
+}
+a{
     color: white;
     text-shadow: 1.7px 0.5px black;
     font-family: 'Secular One', sans-serif;
+    text-decoration: none;
+    
 }
+:hover {
+    transition: all ease-out .2s;
+    color: rgb(255, 201, 159); 
+}
+
 #home{
     padding-left: 0.1vw;
 }
-
 .mainText{
     height: 1000px;
     background: lightblue;
