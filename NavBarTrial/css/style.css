@@ -1,49 +1,161 @@
-*{
-    margin: 0;
+:root {
+  --background-color: rgb(252, 176, 69);
 }
-.backgroundPic{
-    margin: 0px;
-    height: 50vh;
-    width: 100vw;
-    background: url("/trialPhotos/NeatPhoto1.jpg");
-    background-size:cover;
-    background-repeat:round;
+* {
+  margin: 0;
 }
 
-.navBar{  
-    display: inline-table;
-    position: sticky;
-    top: 0px;
-    margin-top: -100px;
-    /* position: relative; */
-    width: 100vw;
-    /* top: -100px; */
-    align-items: center;  
-    background: rgb(68, 230, 255,.5);
-}   
-.text{
-    font-size: 2.1vw;
-    letter-spacing: 0.1vw;
-    padding-right: 0.1vw;
-
-   
+.backgroundPic {
+  position: relative;
+  margin: 0px;
+  height: 50vh;
+  width: 98.7vw;
+  background: url("/trialPhotos/NeatPhoto1.jpg");
+  background-size: cover;
+  background-repeat: round;
 }
-a{
-    color: white;
-    text-shadow: 1.7px 0.5px black;
-    font-family: 'Secular One', sans-serif;
-    text-decoration: none;
-    
+#FirstPhoto {
+  position: relative;
+  right: -2.5vw;
+  height: 11vh;
+  width: 11vw;
+  background: url("/trialPhotos/FRC.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navBar {
+  display: inline-table;
+  position: sticky;
+  top: -0.5px;
+  margin-top: -100px;
+  /* position: relative; */
+  width: 98.7vw;
+  /* top: -100px; */
+  align-items: center;
+  background: rgb(68, 230, 255, 0.5);
+}
+.text {
+  font-size: 2.1vw;
+  letter-spacing: 0.1vw;
+  padding-right: 0.1vw;
+}
+a {
+  color: white;
+  text-shadow: 1.7px 0.5px black;
+  font-family: "Secular One", sans-serif;
+  text-decoration: none;
 }
 :hover {
-    transition: all ease-out .2s;
-    color: rgb(255, 201, 159); 
+  transition: all ease-out 0.2s;
+  color: rgb(252, 160, 90);
 }
 
-#home{
-    padding-left: 0.1vw;
+#home {
+  padding-left: 0.1vw;
 }
-.mainText{
-    height: 1000px;
-    background: lightblue;
+.mainText {
+  width: 98.7vw;
+  background: rgb(255, 255, 255);
+}
+.downNavBar {
+  position: relative;
+  margin-top: 1500px;
+  height: 10vh;
+  width: 98.7vw;
+  background: var(--background-color);
+}
+
+.downTextA {
+  font-size: 1.1vw;
+  letter-spacing: 0.1vw;
+  padding-right: 1vw;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 0.25px white;
+}
+
+.downTh :hover {
+  transition: all ease-in 0.2s;
+  color: blue;
+}
+.downTh {
+  display: inline-flex;
+}
+#homeD {
+  margin-left: 2vw;
+}
+#downNeatLogo {
+  background: url("/trialPhotos/NeatTeamLogo2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mainText {
+  background: rgb(252, 176, 69);
+  background: linear-gradient(
+    to left,
+    rgb(252, 176, 69) 0%,
+    rgb(252, 176, 69) 3%,
+    blue 3%,
+    blue 98%,
+    rgb(252, 176, 69) 0%,
+    rgb(252, 176, 69) 5%
+  );
+}
+#neatLogo {
+  background: url("/trialPhotos/NeatTeamLogo2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 82vw;
+  margin-top: -3vh;
+  height: 8.5vh;
+  width: 11.5vw;
+}
+/* #searchBar{ //for later
+    margin-left: -15vw;
+    height: 4.5vh;
+    width: 12vw;
+} */
+h1 {
+  color: white;
+}
+#robotGif {                     /*not a waste of time!!!*/ 
+  position: relative;
+  background: url("/trialPhotos/cuteRobotGif.gif");
+  height: 8.5vh;
+  width: 11.5vw;
+  margin-left: -2.5vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: cuteRobot;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cuteRobot {
+  from {
+    right: -2.5vw;
+  }
+
+  to {
+    right: 0vw;
+  }
+  to {
+    right: 5vw;
+  }
+  to{
+    right: 10vw;
+  }
+  to{
+    right: 12vw;
+  }
+
+  /* 2DO list 
+    add all of the sponsors to the site near the top and bottom
+    add an explanation about neatTeam at the site's homePage
+    copy and paseting the same navBar and things to all of the other links + making them
+    recoloring the sites
+    creating more stoooooopid animations! 
+  */
 }
