@@ -20,10 +20,57 @@
   height: 11vh;
   width: 11vw;
   background: url("/trialPhotos/FRC.png");
-  background-size: contain;
+  background-size: contain; 
   background-repeat: no-repeat;
 }
+#kornitPhoto{
+  background: url("/trialPhotos/sponsor\ -\ kornit-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: -6vw;
+  height: 9vh;
+  width: 9vw;
+  top: 41vh;
+  left: 28vw;
+}
+#eidPhoto{
+  background: url("/trialPhotos/sposors\ -\ EID\ -\ logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: -6vw;
+  height: 9vh;
+  width: 9vw;
 
+}
+#beginPhoto{
+  background: url("/trialPhotos/sponsors\ -\ beginHS\ -\ logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: -6vw;
+  height: 9vh;
+  width: 9vw;
+}
+#mHaHinuchPhoto{
+  background: url("/trialPhotos/sponsors\ -\ mishradHaHinuch\ -\ logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: -6vw;
+  height: 9vh;
+  width: 9vw;
+}
+#rHAPhoto{
+  background: url("/trialPhotos/sposors\ -\ roshHaAyin\ -\ logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: -6vw;
+  height: 9vh;
+  width: 17vw;
+}
 .navBar {
   display: inline-table;
   position: sticky;
@@ -71,7 +118,7 @@ a {
   letter-spacing: 0.1vw;
   padding-right: 1vw;
   color: rgb(0, 0, 0);
-  text-shadow: 1px 0.25px white;
+  text-shadow: none;
 }
 
 .downTh :hover {
@@ -80,6 +127,34 @@ a {
 }
 .downTh {
   display: inline-flex;
+}
+.fa-brands{
+  text-decoration: none;
+  text-shadow: none;
+  
+}
+.fa-facebook{
+  font-size: 1.1vw;
+  padding-right: 1vw;
+  color:blue;
+}
+.fa-instagram{
+  font-size: 1.1vw;
+  padding-right: 1vw;
+  color: black;
+}
+.fa-youtube{
+    font-size: 1.1vw;
+    padding-right: 1vw;
+    color: red;
+}
+.fa-discord {
+  font-size: 1.1vw;
+  padding-right: 1vw;
+  color: gray;
+}
+.fa-brands:hover{
+  color: white;
 }
 #homeD {
   margin-left: 2vw;
@@ -115,8 +190,16 @@ a {
     height: 4.5vh;
     width: 12vw;
 } */
-h1 {
-  color: white;
+
+.p1 {
+  margin-top: 15vh;
+  margin-left: 10vw;
+  height: 30vh;
+  width: 30vw;
+  box-shadow: 0px 2px 0px 16px #FCB045;
+  background: whitesmoke;
+  box-sizing: border-box;
+  color: black;
 }
 #robotGif {                     /*not a waste of time!!!*/ 
   position: relative;
@@ -151,11 +234,12 @@ h1 {
     right: 12vw;
   }
 
+
   /* 2DO list 
-    add all of the sponsors to the site near the top and bottom
+    add all of the sponsors to the site near the top and bottom :DONE
     add an explanation about neatTeam at the site's homePage
     copy and paseting the same navBar and things to all of the other links + making them
-    recoloring the sites
+    recoloring the site!
     creating more stoooooopid animations! 
   */
 }
